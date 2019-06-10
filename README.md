@@ -22,6 +22,10 @@ https://github.com/Zzm317/V2raySocks
 V2RaySocks-SDK
 https://github.com/Zzm317/V2RaySocks-SDK
 
+create keystore:
+keytool -genkey -v -keystore release.keystore -alias example -keyalg RSA -keysize 2048 -validity 10000
+
+
 ## About
 This project is mainly forked from V2rayNG and I only added the API function for V2raySocks.
 If you want to build or rewrite a client on your own just check the functions of the API.
