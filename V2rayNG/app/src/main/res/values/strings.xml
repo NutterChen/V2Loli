@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">V2Loli</string>
+    <string name="app_name">OO7VPN</string>
     <string name="menu_item_login">Login</string>
     <string name="app_widget_name">Switch</string>
     <string name="app_tile_name">Switch</string>
@@ -26,7 +26,7 @@
     <string name="menu_item_import_config_manually_ss">Type manually[Shadowsocks]</string>
     <string name="menu_item_import_config_custom_local">Import custom config from locally</string>
     <string name="menu_item_import_config_custom_url">Import custom config from URL</string>
-    <string name="menu_item_import_config_custom_url_scan">Import custom config scan URL</string>
+    <string name="menu_item_import_config_custom_url_scan">Import custom config scan URL</string>  */
     <string name="del_config_comfirm">Confirm delete？</string>
     <string name="server_lab_remarks">remarks</string>
     <string name="server_lab_address">address</string>

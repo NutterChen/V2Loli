@@ -256,7 +256,7 @@ class MainActivity : BaseActivity() {
             importClipboard()
             true
         }
-        R.id.import_manually_vmess -> {
+/*       R.id.import_manually_vmess -> {
             startActivity<ServerActivity>("position" to -1, "isRunning" to isRunning)
             adapter.updateConfigList()
             true
@@ -278,7 +278,7 @@ class MainActivity : BaseActivity() {
             importQRcode(REQUEST_SCAN_URL)
             true
         }
-
+*/
         R.id.sub_setting -> {
             startActivity<SubSettingActivity>()
             true

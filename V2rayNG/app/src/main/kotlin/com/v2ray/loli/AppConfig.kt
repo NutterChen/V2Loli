@@ -40,7 +40,7 @@ object AppConfig {
     const val MSG_STATE_RESTART = 5
     const val MSG_STATE_RESTART_SOFT = 6
 
-    const val TG_GROUP_NAME = "V2rayIsNotGreat"
+    const val TG_GROUP_NAME = "OO7VPN"
     object EConfigType {
         val Vmess = 1
         val Custom = 2

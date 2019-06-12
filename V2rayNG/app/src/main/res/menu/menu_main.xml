@@ -18,7 +18,7 @@
                 android:id="@+id/import_clipboard"
                 android:title="@string/menu_item_import_config_clipboard"
                 app:showAsAction="never" />
-            <item
+<!--            <item
                 android:id="@+id/import_manually_vmess"
                 android:title="@string/menu_item_import_config_manually_vmess"
                 app:showAsAction="never" />
@@ -38,7 +38,7 @@
             <item
                 android:id="@+id/import_config_custom_url_scan"
                 android:title="@string/menu_item_import_config_custom_url_scan"
-                app:showAsAction="never" />
+                app:showAsAction="never" />  -->
         </menu>
     </item>
     <item
