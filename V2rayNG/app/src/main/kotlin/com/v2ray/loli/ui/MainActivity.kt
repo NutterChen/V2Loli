@@ -289,14 +289,14 @@ class MainActivity : BaseActivity() {
             true
         }
 
-        R.id.export_all -> {
+      /*  R.id.export_all -> {
             if (AngConfigManager.shareAll2Clipboard() == 0) {
                 toast(R.string.toast_success)
             } else {
                 toast(R.string.toast_failure)
             }
             true
-        }
+        }*/
         R.id.settings -> {
             startActivity<SettingsActivity>("isRunning" to isRunning)
             true

@@ -41,11 +41,11 @@
                 app:showAsAction="never" />  -->
         </menu>
     </item>
-    <item
+    <!-- <item
         android:id="@+id/export_all"
         android:icon="@drawable/ic_share_white_24dp"
         android:title="@string/title_export_all"
-        app:showAsAction="never" />
+        app:showAsAction="never" /> -->
     <item
         android:id="@+id/sub_setting"
         android:icon="@drawable/ic_subscriptions_white_24dp"

@@ -112,10 +112,10 @@
 
     <string name="title_logcat">Logcat</string>
     <string name="logcat_copy">Copy</string>
-    <string name="title_export_all">Export all config to clipboard</string>
-    <string name="title_sub_setting">subscription setting</string>
-    <string name="sub_setting_remarks">remarks</string>
-    <string name="sub_setting_url">url</string>
+    <!-- <string name="title_export_all">Export all config to clipboard</string> -->
+    <string name="title_sub_setting">Subscription setting</string>
+    <string name="sub_setting_remarks">Remarks</string>
+    <string name="sub_setting_url">Paste url below:</string>
     <string name="title_sub_update">Update subscription</string>
 
     <string name="tasker_start_service">Start Service</string>
@@ -158,7 +158,7 @@
     <string name="title_activity_login">Sign in</string>
 
     <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password (optional)</string>
+    <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="error_invalid_email">This email address is invalid</string>
@@ -170,7 +170,7 @@
     </string>
     <string name="error_invalid_network">Network Error</string>
 
-    <string name="choose_package">choose package</string>
+    <string name="choose_package">Select package</string>
     <string name="choose_package_submit">Submit</string>
 
     <string name="default_email"></string>
