@@ -29,10 +29,11 @@ class SubSettingRecyclerAdapter(val activity: SubSettingActivity) : RecyclerView
             holder.name.text = remarks
             holder.url.text = url
             holder.itemView.backgroundColor = Color.TRANSPARENT
-
+/*
             holder.layout_edit.setOnClickListener {
                 mActivity.startActivity<SubEditActivity>("position" to position)
             }
+            */
         } else {
         }
     }
@@ -56,7 +57,7 @@ class SubSettingRecyclerAdapter(val activity: SubSettingActivity) : RecyclerView
     class MainViewHolder(itemView: View) : BaseViewHolder(itemView) {
         val name = itemView.tv_name!!
         val url = itemView.tv_url!!
-        val layout_edit = itemView.layout_edit!!
+        //val layout_edit = itemView.layout_edit!!
     }
 
 }

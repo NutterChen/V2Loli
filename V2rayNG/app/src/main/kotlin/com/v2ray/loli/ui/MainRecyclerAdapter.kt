@@ -72,17 +72,18 @@ class MainRecyclerAdapter(val activity: MainActivity) : RecyclerView.Adapter<Mai
             if (configType == AppConfig.EConfigType.Vmess) {
                 holder.type.text = "vmess"
                 holder.statistics.text = "$address : $port"
-                holder.layout_share.visibility = View.VISIBLE
+                //holder.layout_share.visibility = View.VISIBLE
             } else if (configType == AppConfig.EConfigType.Custom) {
                 holder.type.text = mActivity.getString(R.string.server_customize_config)
                 holder.statistics.text = ""//mActivity.getString(R.string.server_customize_config)
-                holder.layout_share.visibility = View.INVISIBLE
+                //holder.layout_share.visibility = View.INVISIBLE
             } else if (configType == AppConfig.EConfigType.Shadowsocks) {
                 holder.type.text = "ss"
                 holder.statistics.text = "$address : $port"
-                holder.layout_share.visibility = View.VISIBLE
+                //holder.layout_share.visibility = View.VISIBLE
             }
 
+            /*
             holder.layout_share.setOnClickListener {
                 mActivity.selector(null, share_method.asList()) { dialogInterface, i ->
                     try {
@@ -124,7 +125,7 @@ class MainRecyclerAdapter(val activity: MainActivity) : RecyclerView.Adapter<Mai
                     mActivity.startActivity<Server3Activity>("position" to position, "isRunning" to !changeable)
                 }
             }
-
+*/
             holder.infoContainer.setOnClickListener {
                 if (changeable) {
                     AngConfigManager.setActiveServer(position)
@@ -182,8 +183,8 @@ class MainRecyclerAdapter(val activity: MainActivity) : RecyclerView.Adapter<Mai
         val type = itemView.tv_type!!
         val statistics = itemView.tv_statistics!!
         val infoContainer = itemView.info_container!!
-        val layout_edit = itemView.layout_edit!!
-        val layout_share = itemView.layout_share!!
+        //val layout_edit = itemView.layout_edit!!
+        //val layout_share = itemView.layout_share!!
 
         override fun onItemSelected() {
             itemView.setBackgroundColor(Color.LTGRAY)

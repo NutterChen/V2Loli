@@ -70,13 +70,13 @@ data class V2rayConfig(val port: Int,
                                       var response: Any? = null)
             }
 
-            data class KcpsettingsBean(var mtu: Int = 1350,
-                                       var tti: Int = 20,
+            data class KcpsettingsBean(var mtu: Int = 1460,
+                                       var tti: Int = 10,
                                        var uplinkCapacity: Int = 12,
                                        var downlinkCapacity: Int = 100,
-                                       var congestion: Boolean = false,
-                                       var readBufferSize: Int = 1,
-                                       var writeBufferSize: Int = 1,
+                                       var congestion: Boolean = true,
+                                       var readBufferSize: Int = 2,
+                                       var writeBufferSize: Int = 2,
                                        var header: HeaderBean = HeaderBean()) {
                 data class HeaderBean(var type: String = "none")
             }

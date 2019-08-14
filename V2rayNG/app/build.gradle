@@ -4,14 +4,14 @@ apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion Integer.parseInt("$compileSdkVer")
-    buildToolsVersion '27.0.3'
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "com.v2ray.loli"
         minSdkVersion 17
         targetSdkVersion Integer.parseInt("$targetSdkVer")
-        versionCode 105
-        versionName "0.5.3"
+        versionCode 106
+        versionName "0.5.4"
     }
 
 /*    signingConfigs {

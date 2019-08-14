@@ -319,13 +319,13 @@ object V2rayConfigUtil {
             when (streamSettings.network) {
                 "kcp" -> {
                     val kcpsettings = V2rayConfig.OutboundBean.StreamSettingsBean.KcpsettingsBean()
-                    kcpsettings.mtu = 1350
-                    kcpsettings.tti = 50
+                    kcpsettings.mtu = 1460
+                    kcpsettings.tti = 10
                     kcpsettings.uplinkCapacity = 12
                     kcpsettings.downlinkCapacity = 100
-                    kcpsettings.congestion = false
-                    kcpsettings.readBufferSize = 1
-                    kcpsettings.writeBufferSize = 1
+                    kcpsettings.congestion = true
+                    kcpsettings.readBufferSize = 2
+                    kcpsettings.writeBufferSize = 2
                     kcpsettings.header = V2rayConfig.OutboundBean.StreamSettingsBean.KcpsettingsBean.HeaderBean()
                     kcpsettings.header.type = config.vmess[config.index].headerType
                     streamSettings.kcpsettings = kcpsettings
